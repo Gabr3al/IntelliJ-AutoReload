@@ -1,0 +1,5 @@
+name: APIStop
+author: _0x1337_
+version: '${project.version}'
+main: net.gabr3al.apistop.Main
+api-version: '1.20'

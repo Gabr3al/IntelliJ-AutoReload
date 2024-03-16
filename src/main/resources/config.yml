@@ -1,0 +1,17 @@
+#Configuration for the APIStop Plugin
+
+#USAGE:
+#Type: GET-Request
+#Example: http://YOURIP:PORT/?auth=YOURKEY
+#This Triggers a Server Stop
+
+#IMPORTANT: You probably want an Auto-Restart. For that your Server has to run in a Cloud with Auto-Restart or you just modify the Start-Script to do so.
+
+#Port to listen for HTTP Request
+port: 3000
+
+#AuthKey to make this request unable for everybody to use
+authKey: CHANGETHIS
+
+#Wether the HTTP-Server is enabled or not
+enabled: true
