@@ -4,6 +4,7 @@ Streamlining Plugin Deployment: Automating Plugin Updates to a Minecraft Server 
 # Crucial Information: Please Read to Understand the Setup
 
 Dependencies: WinSCP installation on your computer is required.
+Your Server will stop. If you want an actual Auto Restart you can either run it in a Cloud or use an [Auto Restart Script](https://www.spigotmc.org/threads/auto-restart-script.451479/)
 
 ## Video Demonstration
 
