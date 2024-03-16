@@ -5,6 +5,10 @@ Streamlining Plugin Deployment: Automating Plugin Updates to a Minecraft Server 
 
 Dependencies: WinSCP installation on your computer is required.
 
+## Video Demonstration
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/kuQIU9RK9JU/0.jpg)](https://www.youtube.com/watch?v=kuQIU9RK9JU)
+
 ## I will begin by explaining how this works.
 
 In our IntelliJ project, we include a script (upload.bat) that runs after compiling the .jar plugin. Initially, the script generates a text file with SFTP arguments. It's crucial to customize these arguments with your own data. Download the upload.bat script and modify the values accordingly.
