@@ -5,7 +5,9 @@ A solution to automatically update your plugin to a Minecraft-Server on an SFTP-
 
 Dependencies: You need to have WinSCP installed on your Computer.
 
-I will start by explaining on how this works. Basically we add a script (upload.bat) to our project in IntelliJ that executes after compiling the .jar plugin.
+## I will start by explaining on how this works.
+
+Basically we add a script (upload.bat) to our project in IntelliJ that executes after compiling the .jar plugin.
 First the Script creates a Text-File with SFTP Arguments. You NEED to fill these with your own data. Download the upload.bat and Change the values.
 Secondly the Script will build an SFTP-Connection to your Server with a Private Key. If you just use a Password I recommend you to switch to a private key but you can also just change the Script to use a Password.
 After that it will navigate to your set plugins folder and Uploads your set .jar File and Closes Connection.
