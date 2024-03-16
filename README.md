@@ -7,11 +7,17 @@ Dependencies: You need to have WinSCP installed on your Computer.
 
 ## I will start by explaining on how this works.
 
-Basically we add a script (upload.bat) to our project in IntelliJ that executes after compiling the .jar plugin.
-First the Script creates a Text-File with SFTP Arguments. You NEED to fill these with your own data. Download the upload.bat and Change the values.
-Secondly the Script will build an SFTP-Connection to your Server with a Private Key. If you just use a Password I recommend you to switch to a private key but you can also just change the Script to use a Password.
-After that it will navigate to your set plugins folder and Uploads your set .jar File and Closes Connection.
-At last it will Trigger a Server Restart using the StopAPI Plugin i provided in this Repo. 
+In our IntelliJ project, we include a script (upload.bat) that runs after compiling the .jar plugin. Initially, the script generates a text file with SFTP arguments. It's crucial to customize these arguments with your own data. Download the upload.bat script and modify the values accordingly.
+
+Next, the script establishes an SFTP connection to your server using a private key. If you're currently using a password, I strongly recommend switching to a private key for enhanced security. However, if you prefer using a password, you can adjust the script accordingly.
+
+Following the connection setup, the script navigates to your specified plugins folder and uploads the designated .jar file. Once the upload is complete, the script closes the connection.
+
+Finally, the script triggers a server restart using the StopAPI Plugin provided in this repository.
+
+Please ensure the accuracy of the provided information and customize it as per your specific requirements before implementation.
+
+### If you encounter any issues, feel free to contact me on Discord. You can find my username in my bio.
 
 ## Now the Steps to setup properly
 
